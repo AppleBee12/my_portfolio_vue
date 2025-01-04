@@ -1,0 +1,48 @@
+
+
+:root{
+  /* color */
+  --primary: #191A23;
+  --secondary: #00C6C1;
+  --navy:#D3FBD8;
+  --black:#000000;
+  --white:#ffffff;
+  
+}
+
+
+/* reset */
+
+
+
+/* fonts */
+
+/* font (english)- space-grotesk */
+/* font-weight: 300, 400, 500, 700 */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+  unicode-range: U+0020-007F; /* 공백부터 영문 알파벳 대문자,소문자, 숫자, 기본 특수문자 */
+}
+
+
+
+/* font (korea)- hahmlet */
+/* font-weight: 100 to 900 */
+@font-face {
+  font-family: 'Hahmlet';
+  src: url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+  unicode-range: U+AC00-D7A3; /* 한글 범위 */
+}
+
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size:20px;
+  font-weight:400;
+}
+
+
+
+
+
