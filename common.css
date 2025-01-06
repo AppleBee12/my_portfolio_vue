@@ -39,9 +39,14 @@
 body {
   font-family: 'Space Grotesk', sans-serif;
   font-size:20px;
-  font-weight:400;
+  font-weight:500;
 }
 
+body[lang="ko"] {
+  font-family: 'Hahmlet', sans-serif; 
+  font-size:18px;
+  font-weight:400;
+}
 
 
 
