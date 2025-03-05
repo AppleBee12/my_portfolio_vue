@@ -50,4 +50,10 @@ body[lang="ko"] {
 
 
 /* Header */
+header .nav-item{
+  margin: 0 10px;
+}
 
+header .nav-item .btn{
+  border:0.5px solid gray;
+}
