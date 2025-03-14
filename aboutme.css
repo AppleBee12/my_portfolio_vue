@@ -1,0 +1,50 @@
+.about_details details{
+  margin-top:30px ;
+}
+
+details{
+  width: 100%;
+  padding: 60px 41px;
+  border: 1px solid var(--dark);
+  border-radius: 45px;
+  background: var(--gray);
+}
+details[open]{
+  background: var(--secondary);
+}
+
+details summary {
+  list-style: none; /* 기본 ▶ 제거 */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size:30px;
+}
+
+details summary span{
+  font-size: 60px;
+  padding-right: 25px;
+}
+
+
+details summary::before {
+  content: "+";
+  font-size: 1.2rem;
+  margin-right: 8px;
+  transition: transform 0.3s ease-in-out;
+  background: var(--gray);
+  width: 58px;
+  height: 58px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--dark);
+  border-radius: 50%;
+}
+
+details[open] summary::before {
+  content: "-"; 
+}
+
