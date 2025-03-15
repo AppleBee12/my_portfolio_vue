@@ -58,3 +58,30 @@ header .nav-item .btn{
 footer{
   height: 100px;
 }
+
+
+/* main */
+
+.main_wrapper h2{
+  margin-bottom: 35px;
+}
+
+.main_wrapper h2 span{
+  font-size: 60px;
+  line-height: 77px;
+}
+.main_wrapper p{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.main_wrapper .btn_portfolio{
+  background-color: var(--black);
+  padding: 35px 20px;
+  border-radius: 14px;
+  font-size: 20px;
+  margin-top: 208px;
+}
+.main_wrapper .btn_portfolio a{
+color: var(--white);
+}
