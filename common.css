@@ -36,6 +36,11 @@ p:lang(ko) {
   font-weight:400;
 }
 
+header{
+  font-family: 'Space Grotesk';
+  font-weight:300;
+}
+
 
 .block{
   display: block;
@@ -43,21 +48,35 @@ p:lang(ko) {
 
 
 /* Header */
+
+header h1{
+  font-size:30px;
+  font-weight:600;
+}
 header .nav-item{
-  margin: 0 10px;
-  margin-top: 5px;
+  margin: 0 20px;
+  line-height: 28px;
 }
 
 header .nav-item:last-child{
   margin-top: 0px;
+
 }
 header .nav-item .btn{
   border:0.5px solid gray;
+  border-radius: 14px;
+  font-size:20px;
+  line-height: 28px;
+  margin:0;
+  padding: 20px 35px;
+  line-height: 28px;
 }
 
 footer{
   height: 100px;
 }
+
+
 
 
 /* main */
@@ -80,8 +99,9 @@ footer{
   padding: 35px 20px;
   border-radius: 14px;
   font-size: 20px;
-  margin-top: 208px;
+  margin-top: 150px;
 }
 .main_wrapper .btn_portfolio a{
 color: var(--white);
 }
+
