@@ -58,6 +58,11 @@ header .nav-item{
   line-height: 28px;
 }
 
+header .nav-item a:hover{
+color:var(--secondary);
+font-weight: bolder;
+}
+
 header .nav-item:last-child{
   margin-top: 0px;
 
@@ -70,6 +75,10 @@ header .nav-item .btn{
   margin:0;
   padding: 20px 35px;
   line-height: 28px;
+}
+header .nav-item .btn:hover{
+  background: var(--primary);
+  color:var(--white);
 }
 
 footer{
