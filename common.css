@@ -105,3 +105,35 @@ footer{
 color: var(--white);
 }
 
+/* 모바일 - Grid 반응형 내용 추가 */
+
+
+
+/* fs폰트 크기 정리*/
+.fs-0 { font-size: 3rem; }
+/*.fs-1 { font-size: 2.5rem; 40px } */
+/*.fs-2 { font-size: 2rem; 32px } */
+/*.fs-3 { font-size: 1.75rem; 28px } */
+/*.fs-4 { font-size: 1.5rem; 24px} */
+/*.fs-5 { font-size: 1.25rem; 20px } */
+/*.fs-6 { font-size: 1rem; 16px} */
+
+/* md 이상, 태블릿 버전 */
+@media (min-width: 768px) {
+  /* .fs-md-1 { font-size: 3rem; }
+  .fs-md-2 { font-size: 2.5rem; }
+  .fs-md-3 { font-size: 2rem; }
+  .fs-md-4 { font-size: 1.75rem; }
+  .fs-md-5 { font-size: 1.5rem; }
+  .fs-md-6 { font-size: 1.25rem; } */
+}
+
+/* lg 이상, PC 버전 */
+@media (min-width: 992px) {
+  /* .fs-lg-1 { font-size: 3.5rem; }
+  .fs-lg-2 { font-size: 3rem; }
+  .fs-lg-3 { font-size: 2.5rem; }
+  .fs-lg-4 { font-size: 2rem; }
+  .fs-lg-5 { font-size: 1.75rem; }
+  .fs-lg-6 { font-size: 1.5rem; } */
+}
