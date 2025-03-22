@@ -47,7 +47,7 @@ header{
 /* Header */
 
 header h1{
-  font-size:30px;
+  font-size:30px;  /* fs-2 32px 2rem */
   font-weight:600;
 }
 header .nav-item{
@@ -67,7 +67,7 @@ header .nav-item:last-child{
 header .nav-item .btn{
   border:0.5px solid gray;
   border-radius: 14px;
-  font-size:20px;
+  font-size:20px;  /* fs-5 20px */
   line-height: 28px;
   margin:0;
   padding: 20px 35px;
@@ -96,7 +96,7 @@ footer{
   line-height: 77px;
 }
 .main_wrapper p{
-  font-size: 20px;
+  font-size: 20px;  /* fs-5 */
   line-height: 28px;
 }
 
@@ -104,7 +104,7 @@ footer{
   background-color: var(--black);
   padding: 35px 20px;
   border-radius: 14px;
-  font-size: 20px;
+  font-size: 20px;  /* fs-5 */
   margin-top: 150px;
 }
 .main_wrapper .btn_portfolio a{
@@ -116,7 +116,9 @@ color: var(--white);
 
 
 /* fs폰트 크기 정리*/
-.fs-0 { font-size: 3rem; }
+.fs-02 {font-size: 4rem !important;}  /* 60px */
+.fs-01 {font-size: 3.5rem !important;}  /* 56px */
+.fs-0 { font-size: 3rem !important; }  /* 48px */
 /*.fs-1 { font-size: 2.5rem; 40px } */
 /*.fs-2 { font-size: 2rem; 32px } */
 /*.fs-3 { font-size: 1.75rem; 28px } */
