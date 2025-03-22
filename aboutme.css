@@ -19,24 +19,23 @@ details summary {
   display: flex;
   align-items: center;
   font-family: 'Space Grotesk', sans-serif;
-  font-size:30px;
+  font-size:30px;  /* fs-2 32px 2rem */
 }
 
 details summary span{
-  font-size: 60px;
+  font-size: 60px; /* fs-02  */
   padding-right: 25px;
 }
 
 
 details summary::before {
   content: "+";
-  font-size: 1.2rem;
   margin-right: 8px;
   transition: transform 0.3s ease-in-out;
   background: var(--gray);
   width: 58px;
   height: 58px;
-  font-size: 50px;
+  font-size: 50px;   /* fs-0 48px 3rem */
   display: flex;
   justify-content: center;
   align-items: center;
