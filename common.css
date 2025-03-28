@@ -149,4 +149,18 @@ color: var(--white);
 .blink-img,
 .floate-img{
   position: absolute;
+  transform: translate(-50%,-50%);
+}
+
+.rotate-img{
+left: 20%;
+top:10%;
+}
+
+.blink-img{
+
+}
+
+.floate-img{
+
 }
