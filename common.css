@@ -153,12 +153,13 @@ color: var(--white);
 }
 
 .rotate-img{
-left: 20%;
+left: 40%;
 top:10%;
 }
 
 .blink-img{
-
+  left: 20%;
+  top:30%;
 }
 
 .floate-img{
