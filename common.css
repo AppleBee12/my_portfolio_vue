@@ -145,10 +145,7 @@ color: var(--white);
   position: relative;
   /* width: 100%; */
 }
-.main-img{
-  top:0%;
-  
-}
+
 
 .rotate-img,
 .blink-img,
