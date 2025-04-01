@@ -1,5 +1,3 @@
-
-
 :root{
   /* color */
   --primary: #191A23;
@@ -12,11 +10,7 @@
 }
 
 
-
-
-
 /* common 공통 */
-
 
 /* fonts */
 
@@ -25,7 +19,6 @@ body {
   font-size:20px;
   font-weight:500;
 }
-
 
 p:lang(ko) {
   font-family: 'hahmlet';
@@ -38,7 +31,7 @@ header{
   font-weight:300;
 }
 
-
+/* etc */
 .block{
   display: block;
 }
@@ -67,7 +60,6 @@ header .nav-item:last-child{
 header .nav-item .btn{
   border:0.5px solid gray;
   border-radius: 14px;
-  /*font-size:20px;   fs-5 20px */
   line-height: 28px;
   margin:0;
   padding: 20px 35px;
@@ -81,7 +73,6 @@ header .nav-item .btn:hover{
 footer{
   height: 100px;
 }
-
 
 
 
