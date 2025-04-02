@@ -118,17 +118,6 @@ color: var(--white);
 .fs-52 { font-size: 1.15rem !important; }
 /*.fs-6 { font-size: 1rem; 16px} */
 
-/* sm 이상, 모바일 이상 버전 */
-/* @media (min-width: 576px) {
-  .fs-sm-0 { font-size: 3rem !important; }
-  .fs-sm-1 { font-size: 2.5rem !important; }
-  .fs-sm-2 { font-size: 2rem !important; }
-  .fs-sm-3 { font-size: 1.75rem !important; }
-  .fs-sm-4 { font-size: 1.5rem !important; }
-  .fs-sm-5 { font-size: 1.25rem !important; }
-  .fs-sm-6 { font-size: 1rem !important; }
-  .fs-sm-7 { font-size: 0.75rem !important; }
-} */
 
 
 /* index */
@@ -136,7 +125,6 @@ color: var(--white);
   position: relative;
   /* width: 100%; */
 }
-
 
 .rotate-img,
 .blink-img,
